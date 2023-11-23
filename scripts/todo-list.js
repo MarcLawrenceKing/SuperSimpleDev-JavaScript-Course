@@ -1,9 +1,9 @@
 // create array
 const todoList = [{
-  name: 'make dinner',
+  name: 'sample todo',
   dueDate: '2022-12-22'
 }, {
-  name: 'wash dishes',
+  name: 'sample todo',
   dueDate: '2022-12-22'
 }];
 
