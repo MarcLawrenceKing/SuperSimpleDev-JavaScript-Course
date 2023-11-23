@@ -10,6 +10,8 @@ h1{
 }
 h3{
   margin:10px;
+  position: absolute;
+  top:-4px;
 }
 header{
   position: absolute;
@@ -24,7 +26,7 @@ header{
 
 footer{
   display: flex;
-  /*justify-content: space-between;*/
+  align-items: center;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -32,20 +34,19 @@ footer{
   border: 2px solid black;
   border-radius: 2px;
   background-color: beige;
-  height: 90px
+  height: 90px;
 }
 .socmed-container{
+  display: grid;
+  margin: 10px;
   position: relative;
-  top: 25px;
-  left: -160px;
   border: 1px solid black;
   height: 40px;
   width: auto;
   margin: 10px;
-  display: grid;
   gap: 10px;
-  grid-template-columns: repeat(9, 1fr); 
-  margin: 10px;
+  grid-template-columns: repeat(7, 1fr); 
+
 
 }
 .socmed-name{
@@ -53,7 +54,10 @@ footer{
   position: absolute;
   left:45px;
   bottom: -12px;
-  right: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.usernames{
+  color: #000;
 }
 .footer-image{
   width: 40px;
@@ -89,6 +93,6 @@ footer{
 }
 .button-text{
   text-decoration: none;
-  color: rgb(183, 139, 139);
+  color: rgb(190, 165, 165);
   font-weight: bold;
 }
